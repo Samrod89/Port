@@ -352,7 +352,7 @@
 	Personal CSS
 =========================*/  
 #personal-area {
-	background-image: url('./img/portada.jpg');
+	background-image: url('./img/pexels-ylanite-koppens-934062.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 680px;
@@ -461,6 +461,12 @@
 }
 #personal-area .personal-text .btn:last-child{
 	margin:0;
+}
+
+.margin-text {
+margin-top: 80px;
+font-size: 3rem;
+line-height : 35px;
 }
 
 /* Personal Particle */
@@ -787,6 +793,9 @@
 	font-weight: 300;
 	color: #eee;
 }
+.about-text {
+	min-height: 300px;
+}
 #about-me .about-text p:last-child{
 	margin:0;
 }
@@ -1009,6 +1018,7 @@
 }
 #portfolio .portfolio-head{
 	position:relative;
+	/* height: 250px; */
 } 
 #portfolio .portfolio-head::before {
 	position: absolute;
@@ -1035,6 +1045,7 @@
 }
 #portfolio .portfolio-head img{
 	width:100%;
+	height: 40vh;
 	z-index:10;
 }
 #portfolio .portfolio-single:hover img{
@@ -1288,7 +1299,7 @@
 	CountDown CSS
 =========================*/
 #countdown {
-	background-image: url(./img/fondo-codificacion-digital-numeros-cero_1017-30363.jpg);
+	background-image: url(./img/pexels-lukas-574073.jpg);
 	background-size: cover;
 	background-position: center center;
 	position: relative;
@@ -1381,7 +1392,7 @@
 }
 #my-timeline .timeline-inner:before{
 	content: "";
-	*/-webkit-border-radius: 2px;
+	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 	margin-left: -2px;
@@ -1605,7 +1616,7 @@
 /*=======================
 	Testimonial CSS
 =========================*/
-#testimonials {
+/* #testimonials {
 	background: url('http://via.placeholder.com/1500x800');
 	background-size: cover;
 	background-position: center;
@@ -1682,7 +1693,9 @@
 #testimonials .rating li{
 	display:inline-block;
 }
-#testimonials .owl-nav{}
+#testimonials .owl-nav {
+	
+}
 #testimonials .owl-nav div {
 	position: absolute;
 	top: 50%;
@@ -1704,7 +1717,7 @@
 }
 #testimonials .owl-nav .owl-next{
 	right:0;
-}
+} */
 /*=======================
 	End Testimonial
 =========================*/
@@ -1712,11 +1725,11 @@
 /*=======================
 	Blog CSS
 =========================*/
-#blog{
+/* #blog{
 	background:#f5f5f5;
-}
+} */
 /* Blog Latest */
-#blog .single-blog {
+/* #blog .single-blog {
 	background: #fff;
 	-webkit-box-shadow: 0px 0px 4px rgba(21, 20, 20, 0.4);
 	-moz-box-shadow: 0px 0px 4px rgba(21, 20, 20, 0.4);
@@ -1902,10 +1915,10 @@
 	-webkit-transform:scale(2.0);
 	-moz-transform:scale(2.0);
 	transform:scale(2.0);
-} 
+}  */
 
 /* Blog Archive */
-#blog.archive {
+/* #blog.archive {
 	padding: 50px 0 80px;
 }
 #blog.archive iframe{
@@ -1995,10 +2008,10 @@
 }
 #blog.archive .pagination li.next span{
 	margin-left:5px;
-}
+} */
 
 /* Blog Sidebar */
-#blog .form .search{
+/* #blog .form .search{
 	position:relative;
 }
 #blog .form .s-button {
@@ -2155,17 +2168,17 @@
 #blog .tags ul li:hover a,
 #blog .tags ul li.active a{
 	color:#fff;
-}
+} */
 
 /* Blog Single */
-#blog.single blockquote {
+/* #blog.single blockquote {
 	font-style: italic;
 	font-size: 15px;
 	color:#353535;
 	font-weight:600;
-}
+} */
 /* Prev Next */
-#blog.single .prev-next {
+/* #blog.single .prev-next {
 	position: relative;
 	float: left;
 }
@@ -2193,9 +2206,9 @@
 }
 #blog.single .blog-bottom{
 	overflow:hidden;
-}
+} */
 /* Blog Share */
-#blog.single .blog-share {
+/* #blog.single .blog-share {
 	float: right;
 }
 #blog.single .blog-share ul li {
@@ -2218,9 +2231,9 @@
 	line-height: 30px;
 	text-align: center;
 	background:#252525;
-}
+} */
 /* Blog title */
-#blog .b-title{
+/* #blog .b-title{
 	text-align:center;
 }
 #blog .b-title h2 {
@@ -2239,10 +2252,10 @@
 	width: 60%;
 	height: 2px;
 	margin-left: -30%;
-}
+} */
 
 /* Blog Comments */
-#blog .blog-comments {
+/* #blog .blog-comments {
 	margin-top: 30px;
 	background: #fff;
 	padding: 20px;
@@ -2325,7 +2338,7 @@
 }
 #blog .single-comments.login a:hover{
 	color:#353535;
-}
+} */
 /*=======================
 	End Blog
 =========================*/
@@ -2367,6 +2380,9 @@
 	transform: rotate(-6deg);
 	border-radius: 10px;
 	z-index: -2;
+}
+.margin {
+	margin-top: 60px;
 }
 #call-action .call-action-main {
 	text-align: center;
@@ -2591,6 +2607,10 @@
 	margin-right:5px;
 	font-size:15px;
 }
+
+#map {
+	height: 100%;
+  }
 /*=======================
   End Mail
 =========================*/
@@ -2665,6 +2685,10 @@
 }
 #footer-top .news-form  button:hover{
 	background:transparent;
+}
+.margin {
+	margin-top: -29px;
+    padding-left: 39px;
 }
 /*=======================
   End Footer Top

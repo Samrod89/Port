@@ -11,7 +11,7 @@
 
 // ";
 
-// mail ("araquecjorge@gmail.com" , "New Message", $email_message);
+// mail ("sam.rodriguezr.89@gmail.com" , "New Message", $email_message);
 // header("location: ../mail-success.html ");
 ?>
 
